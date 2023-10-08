@@ -1,0 +1,96 @@
+html,body{
+  background-color: black;
+  color:#ffff;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.fs{
+ -webkit-font-smoothing: antialiased;
+  font-family:Monument Extended,sans-serif;
+  font-size: 125px;
+  letter-spacing: 20px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+.textStroks-true {
+   color: transparent;
+   -webkit-text-stroke: 1px white;
+   transition: transform 0.8s ease-in-out;
+   text-shadow: none;
+}
+.textStroks-false {
+   color: white;
+   transition: transform 0.8s ease-in-out;
+   -webkit-text-stroke: 1px white;
+   text-shadow: none;
+}
+.mainDiv{
+ position: fixed;
+ z-index: 10;
+}
+/* .main-container{
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+} */
+.just-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.rollImage{
+  /* transform-style: preserve-3d; */
+    transition: transform 0.5s ease-in-out;
+  margin: 20px;
+  height: 50vh;
+  width: 80vw;
+  /* border: 2px solid red; */
+  /* background: url("https://c4.wallpaperflare.com/wallpaper/38/1014/441/watch-luxury-watches-wallpaper-preview.jpg"); */
+  /* background-color: red; */
+ 
+}
+
+
+.bend{
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.img0{
+  background: url("https://c4.wallpaperflare.com/wallpaper/38/1014/441/watch-luxury-watches-wallpaper-preview.jpg"); 
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1{
+  background: url("https://c4.wallpaperflare.com/wallpaper/927/392/1008/watch-luxury-watches-breitling-wallpaper-preview.jpg"); 
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img2{
+  background: url("https://c4.wallpaperflare.com/wallpaper/543/1006/525/watch-luxury-watches-omega-watch-wallpaper-preview.jpg"); 
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img3{
+  background: url("https://c4.wallpaperflare.com/wallpaper/33/20/51/watch-luxury-watches-ulysse-nardin-wallpaper-preview.jpg"); 
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
