@@ -44,7 +44,7 @@ function ScrollEffect() {
           </h1>
         </div>
       </div>
-      <div style={{ height: '220vh' }} className="just-center">
+      <div style={{ height: '300vh' }} className="just-center">
         <div className="bend just-center">
           {new Array(4).fill().map((_, i) => {
             return (
